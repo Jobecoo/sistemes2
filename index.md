@@ -3,7 +3,7 @@ layout: default
 title: "Curs de Sistemes Operatius "
 ---
 
-Aquest repositori conté el material del curs de Machine Learning desenvolupat per Joan Bertomeu.
+Aquest repositori conté el material del curs de Sistemes Operatius desenvolupat per Joan Bertomeu.
 
 - Índex i enllaços a les unitats del curs.
 - Recursos en format PDF, vídeos i Google Colab.
@@ -11,7 +11,7 @@ Aquest repositori conté el material del curs de Machine Learning desenvolupat p
 
 ## Llicència
 
-El contingut està sota llicència [Creative Commons BY-NC-SA 3.0 ES](LICENSE.md).
+El contingut està sota llicència [Creative Commons BY-NC-SA 4.0 ES](LICENSE.md).
 
 ## Contingut del curs
 
