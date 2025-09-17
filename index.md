@@ -1,26 +1,23 @@
 ---
 layout: default
-title: "Curso de Machine Learning"
+title: "Curs de Sistemes Operatius "
 ---
 
-Este repositorio contiene el material del curso de Machine Learning desarrollado por Mireia Consarnau.
+Aquest repositori conté el material del curs de Machine Learning desenvolupat per Joan Bertomeu.
 
-- Índice y enlaces a las unidades del curso.
-- Recursos en formato PDF, vídeos, y Google Colab.
-- Código y ejemplos prácticos.
+- Índex i enllaços a les unitats del curs.
+- Recursos en format PDF, vídeos i Google Colab.
+- Codi i exemples pràctics.
 
-## Licencia
+## Llicència
 
-El contenido está bajo licencia [Creative Commons BY-NC-SA 3.0 ES](LICENSE.md).
+El contingut està sota llicència [Creative Commons BY-NC-SA 3.0 ES](LICENSE.md).
 
-## Contenido del curso
+## Contingut del curs
 
-### [Unidad 1. Fundamentos de la Inteligencia Artificial y el Aprendizaje Automático](unidad1/unidad1.md)  
-### [Unidad 2. Preprocesamiento de datos: preparando la base del aprendizaje automático](unidad2/unidad2.md)  
-### [Unidad 3. Aprendizaje supervisado: modelos para análisis predictivo](unidad3/unidad3.md)  
-### [Unidad 4. Aprendizaje no supervisado: modelos de agrupación y análisis de patrones](unidad4/unidad4.md)  
-### [Unidad 5. Redes neuronales y modelos avanzados de aprendizaje automático](unidad5/unidad5.md)  
+### [Activitat 1. Creació entorn d’arrencada amb systemd L](unidad1/unidad1.md)  
+### [Activitat 2. Gestió de kernels i mòduls del sistema L](unidad2/unidad2.md)  
 
-### [Relación entre Unidades y Resultados de Aprendizaje (RAs)](ras.md)  
+### [Relació entre Unitats i Resultats d'Aprenentatge (RAs)](ras.md)  
 
 ### [FAQs](faqs/faqs.md)  
