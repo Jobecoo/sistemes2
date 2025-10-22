@@ -33,3 +33,11 @@ Recarreguem el systemd, l'habilitem i l'iniciem, i després comprovem que funcio
 I com podem observar en el nostre correu, s'esta fent un registre del keylogger.
 
 <img width="464" height="540" alt="image" src="https://github.com/user-attachments/assets/bbbc69f8-2719-449c-a969-8cb5568ac104" />
+
+# Serveis Windows
+
+1. Crear un nou servei:
+    - Opció 1: nssm.exe
+    - Opció 2: Powershell
+2. Executar un script a l'inici de sessio d'un usuari determinat
+3. Services.msc automàtic
