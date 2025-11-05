@@ -36,8 +36,27 @@ I com podem observar en el nostre correu, s'esta fent un registre del keylogger.
 
 # Serveis Windows
 
-1. Crear un nou servei:
-    - Opció 1: nssm.exe
-    - Opció 2: Powershell
-2. Executar un script a l'inici de sessio d'un usuari determinat
-3. Services.msc automàtic
+Ara faré el mateix però amb windows, mitjançant l'eina nssm. Primer descarreguem l'eina, i desrpés obrim el powershell i anem al directori del nssm. De moment el deixem així. Ara, crearem un fitxer on posarem el nostre keylogger, un python per a que llençi el keylogger com a servei, i un últim arxiu per a que en iniciar no s'obri una finestra de python. 
+
+<img width="610" height="75" alt="image" src="https://github.com/user-attachments/assets/3c590eee-b6eb-4fb4-9104-fea00ac32921" />
+
+Instal·lem el servei, relacionant-lo amb python i després el configurarem
+
+<img width="1006" height="43" alt="image" src="https://github.com/user-attachments/assets/92dbc72b-6992-45e1-9a1c-12cc6bffea28" />
+
+Li donem el nom al servei i també la ruta del nostre servei de keylogger que llença el keylogger.
+
+<img width="958" height="85" alt="image" src="https://github.com/user-attachments/assets/d53290ce-82c9-44eb-80c4-8a86f419d7d0" />
+
+Establim que es faci un auto start
+
+<img width="775" height="30" alt="image" src="https://github.com/user-attachments/assets/a279aaa4-3a52-4ad7-8939-acaa4ab5282a" />
+
+Com podem veure el nostre servei està RUNNING.
+
+<img width="647" height="118" alt="image" src="https://github.com/user-attachments/assets/c16886dd-ef96-44fe-a549-dd3c7bbb7e76" />
+
+Reiniciem l'ordinador i podem observar com ja comença a enviar correus. 
+
+<img width="1391" height="111" alt="image" src="https://github.com/user-attachments/assets/af8fa413-9734-4025-afea-73dc1335c8db" />
+
