@@ -60,3 +60,41 @@ Reiniciem l'ordinador i podem observar com ja comença a enviar correus.
 
 <img width="1391" height="111" alt="image" src="https://github.com/user-attachments/assets/af8fa413-9734-4025-afea-73dc1335c8db" />
 
+
+
+# Kernel
+
+Mitjançant uname -r podem comprovar la versió del nostre kernel.
+
+<img width="350" height="47" alt="image" src="https://github.com/user-attachments/assets/cbd24190-1840-4190-a733-88728a4b7919" />
+
+Descarguem el kernel
+
+<img width="729" height="238" alt="image" src="https://github.com/user-attachments/assets/ae8f40bf-eb69-44e5-b246-656e19aa833a" />
+
+Aquí isntal·lem les dependències que necessitem per a realitzar la compilació de kernel. 
+
+<img width="729" height="75" alt="image" src="https://github.com/user-attachments/assets/1d9e5551-2583-4dff-b67d-d1eb1f361ac3" />
+
+Amb la comanda make menuconfig podem modificar característiques del kernel el cual volem compilar.
+
+<img width="771" height="551" alt="image" src="https://github.com/user-attachments/assets/4473180b-0bfb-4366-ac4a-d1ba4dcfa4ed" />
+
+Jo personalment desactivaré la funció de xarxa per a que es pugui comprovar que realment funciona. 
+<img width="633" height="724" alt="image" src="https://github.com/user-attachments/assets/28262398-2757-4fdf-8aff-8afee79d2faf" />
+
+Al .config toquem dues línies les cuals fan que revisi uns certificats que no tenim.
+
+<img width="482" height="134" alt="image" src="https://github.com/user-attachments/assets/ef7e48ac-0d3e-4fa8-a02e-b8b53dc472e2" />
+
+Amb la comanda make ja podem començar la compilació del kernel. 
+
+<img width="621" height="598" alt="image" src="https://github.com/user-attachments/assets/bb69ed15-5419-4a01-9bf4-4fb865c7421f" />
+
+Realitzem un make install  quan acabi
+
+<img width="659" height="436" alt="image" src="https://github.com/user-attachments/assets/719af529-5a89-41a2-a770-eac8b443cfe6" />
+
+Actualitzem el grub
+
+<img width="614" height="110" alt="image" src="https://github.com/user-attachments/assets/bb81367c-db97-48c8-adfa-80e5e72ee890" />
